@@ -1,3 +1,3 @@
 <?php
-// Forward to new.php
-require __DIR__ . '/../new.php';
+// Forward request to new.php while preserving GET parameters
+require __DIR__ . '/new.php';
